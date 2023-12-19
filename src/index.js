@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './js/App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Count from './js/Count';
 import ToggleButton from './js/ToggleButton';
@@ -10,20 +10,23 @@ import ImageChange from './js/ImageChange';
 import ObjectExample from './js/ObjectExample';
 import AnimalSound from './js/Animal';
 import TimerCount from './js/TimerCount';
+import ExampleCallback from './js/ExampleCallback';
+import PreticeTwo from './js/PreticeTwo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 
-  {/*  <App />  react에서 주석은 {/* *} 이렇게 표현 */}
-  {/*<Count />*/}  
-  {/*<ToggleButton />*/}  
-  {/*<IndexExample/>*/}  
-  {/*<ImageChange/>*/}
-  {/*<ObjectExample/>*/}
-  {/*<AnimalSound/>*/}
-  <TimerCount/>
-
-    </React.StrictMode>
+    <App /> 
+    {/*<Count />*/}  
+    {/*<ToggleButton />*/}  
+    {/*<IndexExample/>*/}  
+    {/*<ImageChange/>*/}
+    {/*<ObjectExample/>*/}
+    {/*<AnimalSound/>*/}
+    {/*<TimerCount/>*/}
+    {/*<ExampleCallback/> */}
+    {/* <PreticeTwo/> */}
+  </React.StrictMode>
 );
 reportWebVitals();
 
