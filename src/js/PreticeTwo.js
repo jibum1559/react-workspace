@@ -8,8 +8,8 @@ function ExCallBack(){
     }, [count]);
     return (
         <div>
-            <p>Count : {count}</p>
             <button onClick={increaClick}>확인</button>
+            <p>Count : {count}</p>
         </div>
     )
 }
@@ -51,10 +51,12 @@ function TodoList() {
                
                <ul>
                 {list.map((lists, index) => (
-                    <li key={index}>
+                    <li key={index} className="todo-container">
                         {lists}
-                        <button onClick={() => removeList(index)}>삭제</button>
-                        <ExCallBack />
+                        <div className="ab">
+                            <button onClick={() => removeList(index)}>삭제</button>
+                            <ExCallBack />
+                        </div>
                     </li>
                     ))}
                </ul>

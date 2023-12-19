@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import AppCopy from './js/AppCopy';
 import reportWebVitals from './reportWebVitals';
 import Count from './js/Count';
 import ToggleButton from './js/ToggleButton';
@@ -16,7 +17,8 @@ import PreticeTwo from './js/PreticeTwo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode> 
-    <App /> 
+    {/* <App />  */}
+    {/* <AppCopy/> */}
     {/*<Count />*/}  
     {/*<ToggleButton />*/}  
     {/*<IndexExample/>*/}  
@@ -25,7 +27,7 @@ root.render(
     {/*<AnimalSound/>*/}
     {/*<TimerCount/>*/}
     {/*<ExampleCallback/> */}
-    {/* <PreticeTwo/> */}
+    <PreticeTwo/>
   </React.StrictMode>
 );
 reportWebVitals();
