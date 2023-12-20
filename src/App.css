@@ -12,10 +12,6 @@ input {
   margin-right: 8px;
 }
 
-
-
-/* App.css */
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -23,42 +19,30 @@ ul {
 
 li {
   margin: 8px 0;
-  padding: 8px;
+  padding: 18px;
   border: 1px solid #ccc;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+ 
 }
 
-button {
+.listButton button {
   background-color: #f49e36;
   color: white;
   border: none;
   padding: 8px;
   cursor: pointer;
-}
-
-li button {
   margin-left: 10px;
+  
 }
 
-li > div {
-  display: flex;
-  align-items: center;
+.buttons button {
+  background-color: #f49e36;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  float: right;
 }
 
-.todo-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%; /* Ensure the entire width is used for flex */
-}
-
-.todo-container p {
-  margin-left: auto; /* Push the Count to the right */
-  margin-right: 10px;
-}
-
-.ab button, p {
-  float: left;
+span button {
+  width: 95px;
 }

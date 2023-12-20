@@ -13,6 +13,10 @@ import AnimalSound from './js/Animal';
 import TimerCount from './js/TimerCount';
 import ExampleCallback from './js/ExampleCallback';
 import PreticeTwo from './js/PreticeTwo';
+import PreticeTwoCopy from './js/PreticeTwoCopy';
+import TodoList from './js/TodoList';
+import ParentComponent from './js/ParentComponent';
+import Board from './js/Board';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,6 +32,10 @@ root.render(
     {/*<TimerCount/>*/}
     {/*<ExampleCallback/> */}
     <PreticeTwo/>
+    {/* <PreticeTwoCopy/> */}
+    {/* <TodoList/> */}
+    {/* <ParentComponent/> */}
+    {/* <Board/> */}
   </React.StrictMode>
 );
 reportWebVitals();
