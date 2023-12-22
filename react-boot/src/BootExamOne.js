@@ -1,124 +1,101 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'
-import 오도리공원 from './img/배경1.jpg';
+import './App.css';
+import 벚꽃 from './img/배경1.jpg';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header bg-dark'>
+    <div className="App">
+      <header className="App-header bg-dark">
         <h1>리액트 부트스트랩 사이트</h1>
       </header>
-      <main className='container mt-2'>
-        <section className='mb-5'>
-        <div className='row'>
-          <div className='col-md-4'>
-            <h2>
-              오도리공원
-            </h2>
-            <img className='img-fluid' src={오도리공원}/>
+      <main className="container mt-2">
+        <section className="mb-5">
+          <div className="row">
+            <div className="col-md-4">
+              <h2>벚꽃</h2>
+              <img className="img-fluid" src={벚꽃} />
+            </div>
+            <div className="col-md-4">
+              <h2 className="text-center py-5">About</h2>
+            </div>
+            <div className="col-md-4">
+              <h2>벚꽃</h2>
+              <img className="img-fluid" src={벚꽃} />
+            </div>
           </div>
-          <div className='col-md-4'>
-          <h2 className='text-center py-5'>
-              About
-            </h2>
+          {/* col 은 총 12개로 이루어져 있으며, 위 com은 4,4,4 세 구간으로 나눔 */}
+          <div className="row">
+            <div className="col-md-4">
+              <h2 className="text-center py-5">About</h2>
+            </div>
+            <div className="col-md-4">
+              <h2>벚꽃</h2>
+              <img className="img-fluid" src={벚꽃} />
+            </div>
+            <div className="col-md-4">
+              <h2 className="text-center py-5">About</h2>
+            </div>
           </div>
-          <div className='col-md-4'>
-            <h2>
-              오도리공원
-            </h2>
-            <img className='img-fluid' src={오도리공원}/>
-          </div>
-        </div>
-
-
-
-        <div className='row'>
-          <div className='col-md-4'>
-            <h2 className='text-center py-5'>
-              About
-            </h2>
-          </div>
-          <div className='col-md-4'>
-            <h2>
-              오도리공원
-            </h2>
-            <img className='img-fluid' src={오도리공원}/>
-          </div>
-          <div className='col-md-4'>
-          <h2 className='text-center py-5'>
-              About
-            </h2>
-          </div>
-        </div>
         </section>
 
-
-        <section className='mb-5'>
-          <h2 className='mb-4'>세션2</h2>
-          <div className='row'>
-            <div className='col-md-4 mb-4'>
-              <div className='card'>
-                <div className='card-body'>
-                  <h5 className='card-title'>세션3-1</h5>
-                  <p className='card-text'>
-                    안녕하세요 세션 3-1입니다.
-                  </p>
+        <section className="mb-5">
+          <h2 className="mb-4">세션2</h2>
+          <div className="row">
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">세션3-1</h5>
+                  <p className="card-text">안녕하세요 세션 3-1입니다.</p>
                 </div>
               </div>
             </div>
-            <div className='col-md-4 mb-4'>
-              <div className='card'>
-                <div className='card-body'>
-                  <h5 className='card-title'>세션3-2</h5>
-                  <p className='card-text'>
-                    안녕하세요 세션 3-2입니다.
-                  </p>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">세션3-2</h5>
+                  <p className="card-text">안녕하세요 세션 3-2입니다.</p>
                 </div>
               </div>
             </div>
 
-
-            
-            <div className='col-md-4 mb-4'>
-              <div className='card'>
-                <div className='card-body'>
-                  <h5 className='card-title'>세션3-3</h5>
-                  <p className='card-text'>
-                    안녕하세요 세션 3-3입니다.
-                  </p>
+            <div className="col-md-4 mb-4">
+              <div className="card">
+                <div className="card-body">
+                  <h5 className="card-title">세션3-3</h5>
+                  <p className="card-text">안녕하세요 세션 3-3입니다.</p>
                 </div>
               </div>
             </div>
           </div>
         </section>
         <section>
-          <h2 className='text-center mb-4'>Contect Us</h2>
+          <h2 className="text-center mb-4">Contect Us</h2>
           <form>
-            <div className='mb-3'>
-              <label className='form-label'>
-                Name
-              </label>
-              <input type='text' className='form-control' id='name' />
+            <div className="mb-3">
+              <label className="form-label">Name</label>
+              <input type="text" className="form-control" id="name" />
             </div>
-            <div className='mb-3'>
-              <label className='form-label'>
-                Email
-              </label>
-              <input type='email' className='form-control' aria-describedby='emailSmall'/>
-              <small id='emailSmall' className='form-text text-muted'>이메일</small>
+            <div className="mb-3">
+              <label className="form-label">Email</label>
+              <input
+                type="email"
+                className="form-control"
+                aria-describedby="emailSmall"
+              />
+              <small id="emailSmall" className="form-text text-muted">
+                이메일
+              </small>
             </div>
-            <div className='mb-3'>
-              <label className='form-label'>
-                메세지 작성
-              </label>
-              <textarea rows='4' className='form-control'></textarea>
+            <div className="mb-3">
+              <label className="form-label">메세지 작성</label>
+              <textarea rows="4" className="form-control"></textarea>
             </div>
-            <button className='btn btn-primary'>전송하기</button>
+            <button className="btn btn-primary">전송하기</button>
           </form>
         </section>
       </main>
-      <footer className='bg-dark text-light text-center py-3'>
+      <footer className="bg-dark text-light text-center py-3">
         <p>&copy; 2023 My React Site</p>
       </footer>
     </div>
@@ -127,7 +104,8 @@ function App() {
 
 export default App;
 
-{/*
+{
+  /*
         container: 본문을 담을 컨테이너를 생성
         mt-4: mt 는 margin top을 나타냄, -4는 상단 마진을 4단위로 설정하겠다.
 
@@ -168,4 +146,5 @@ export default App;
 
         btn: 버튼의 약자
         btn-primary: css 규격을 사용하는 곳은 대부분 primary 말을 파란색 계열로 지정해서 사용
-      */}
+      */
+}
