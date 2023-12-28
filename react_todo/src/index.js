@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//indexJS가 최상위 js이기 때문에 경로 문제로 인해 제일 위에도 bootstrap을 넣어줌
-import 'bootstrap/dist/css/bootstrap.min.css';
+import TodoList from './component/TodoList';
 import App from './App';
-import AppMain from './AppMain';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <TodoList /> */}
+    <App/>
   </React.StrictMode>
 );
 

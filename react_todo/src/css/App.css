@@ -1,0 +1,89 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+input {
+  margin-right: 8px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+  padding: 8px;
+  /* border: 1px solid #ccc; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #ffd8d8;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #ffd8d8;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header hr {
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: rgb(255, 174, 174);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  color: rgb(240, 123, 123);
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #edbcbc;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
